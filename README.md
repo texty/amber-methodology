@@ -1,7 +1,7 @@
-# Search for illegal amber mining HOWTO
+## Search for illegal amber mining HOWTO
 
-This is a description of methodology for this project: http://texty.org.ua/d/2018/amber_eng
-Main idea for the project - use machine learning to find all places of illegal amber mining in Nothern-West regions of Ukraine.
+This is a description of methodology for this project: http://texty.org.ua/d/2018/amber_eng.
+Main idea - use machine learning to find all places of illegal amber mining in Nothern-West regions of Ukraine on satellite images.
 
 
 ## Motivation
@@ -13,10 +13,15 @@ We decided to estimate, for the first time, an environmental impact of this phen
 
 ## Main steps 
 
-1. Research how patches of land with illegal mining could look on satellite images
-2. Find which map providers could some examples of places with mining on images 
-3. Create training set
-2. Use neural net to extract features in satellite photography.
+1. Research how patches of land with illegal mining could look on satellite images (searching on images for some known locations)
+2. Find which map providers have relatively recent satellite images with good resolution. Find examples of places with mining on images.
+3. Find and download initial training set
+4. Split each image to superpixels (approx same regions)
+5. Use neural net to extract features for each superpixel
+6. Create labelled set of superpixels for binary classificator
+7. Create machine model to classify superpixels
+8. Apply model for each image from region of interest
+9. Create interactive map with places found by our model
    
 
 
