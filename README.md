@@ -17,7 +17,7 @@ We decided to estimate, for the first time, an environmental impact of this phen
 
 1. Research how patches of land with illegal mining could look on satellite images (look at images for some known locations with amber mining, use known videos and photos, interviews with field experts)
 2. Find which map providers have relatively recent satellite images with good resolution. Find examples of places with mining on such images (Mostly it's [Bing](https://www.bing.com/maps?osid=6c00a44b-a9e3-4162-9c6d-6a962b7a717e&cp=50.528222~28.304432&lvl=15&style=h&v=2&sV=2&form=S00027). It has very good API with metadata for each tile.)
-3. Find and compile initial set of coordinates for images with traces of mining
+3. Find and compile initial set of coordinates for images with traces of mining (we found first places with mining for this dataset with a huge help from [participants of Open Data Day Kyiv](https://www.facebook.com/media/set/?set=ms.c.eJxFj8ENADEIwzY6FQIB9l~%3BsVCrar2USIm5OppQ7FC6fNAjFBmYxIJhJD71ARaVKhAMMbXDdE~_nQqgE4RlwDXWuY2lzWJ3yh2obmGLbawGvx81i~_jP3YAgZIbYNp1~_gtrNmS6AxyMiLPWokfOYA7Bg~-~-.bps.a.1545667108865793.1073741952.855566061209238&type=1) )
 4. Split each such tile to superpixels/segments (regions with approximately homogeneous visual appearance)
 5. Use neural net to extract features for each superpixel (was used vanilla ResNet50 from Keras library )
 6. Create labelled set of superpixels for binary classificator (split images on two sets - with traces of amber mining, and without such traces)
