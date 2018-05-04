@@ -41,7 +41,8 @@ Result: we present most informative, as for this moment, interactive [map of imp
 
 We first thought about amber related project back in 2016, during work on [deforestation in Karpathian mountains](http://texty.org.ua/d/deforestation/). But in that time we didn't have relatively recent satellite images with big enough resolution. 
 
-I'd like to say couple of kind words for (Terrapattern)[http://www.terrapattern.com/] , amazing project which prove that similar analysis of satellite images is possible.
+I'd like to say couple of kind words for [Terrapattern](http://www.terrapattern.com/), amazing project which proved that similar analysis of satellite images is possible.
+
 
 
 ### Contact autor of this repository:
