@@ -19,7 +19,7 @@ We decided to estimate, for the first time, an environmental impact of this phen
 2. Find which map providers have relatively recent satellite images with good resolution. Find examples of places with mining on such images (Mostly it's Bing. It has very good API with metadata for each tile.)
 3. Find and compile initial set of coordinates for images with traces of mining
 4. Split each such tile to superpixels/segments (regions with approximately homogeneous visual appearance)
-5. Use neural net to extract features for each superpixel (vanilla ResNet50 from Keras library was used)
+5. Use neural net to extract features for each superpixel (was used vanilla ResNet50 from Keras library )
 6. Create labelled set of superpixels for binary classificator (split images on two sets - with traces of amber mining, and without such traces)
 7. Create machine model to classify superpixels (XGBoost was choosed after several tries)
 8. Apply steps 4,5 and classifier from 7 to each superpixel/segment for all images from region of interest. If more then 2 superpixels classified as positive, mark current image as area of mining. (approximately 450,000 images for region with total area about 70,000 km^2, total computation time was ~100 hours on computer with two GeForce GTX 960 onboard)
@@ -34,6 +34,14 @@ Result: we present most informative, as for this moment, interactive [map of imp
 * [Step 1: Split map tile to "superpixels"](./model/step1.ipynb)
 * [Step 2. Extraction of features. Model training/testing](./model/step2.ipynb)
 * [Step 3: Detect places with amber mining](./model/step3.ipynb)
+
+
+
+### Sources of inspiration
+
+We first thought about amber related project back in 2016, during work on [deforestation in Karpathian mountains](http://texty.org.ua/d/deforestation/). But in that time we didn't have relatively recent satellite images with big enough resolution. 
+
+I'd like to say couple of kind words for (Terrapattern)[http://www.terrapattern.com/] , amazing project which prove that similar analysis of satellite images is possible.
 
 
 ### Contact autor of this repository:
