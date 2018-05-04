@@ -16,7 +16,7 @@ We decided to estimate, for the first time, an environmental impact of this phen
 ### Project stages 
 
 1. Research how patches of land with illegal mining could look on satellite images (look at images for some known locations with amber mining, use known videos and photos, interviews with field experts)
-2. Find which map providers have relatively recent satellite images with good resolution. Find examples of places with mining on such images (Mostly it's Bing. It has very good API with metadata for each tile.)
+2. Find which map providers have relatively recent satellite images with good resolution. Find examples of places with mining on such images (Mostly it's [Bing](https://www.bing.com/maps?osid=6c00a44b-a9e3-4162-9c6d-6a962b7a717e&cp=50.528222~28.304432&lvl=15&style=h&v=2&sV=2&form=S00027). It has very good API with metadata for each tile.)
 3. Find and compile initial set of coordinates for images with traces of mining
 4. Split each such tile to superpixels/segments (regions with approximately homogeneous visual appearance)
 5. Use neural net to extract features for each superpixel (was used vanilla ResNet50 from Keras library )
