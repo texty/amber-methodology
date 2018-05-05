@@ -1,4 +1,5 @@
-## Search for illegal amber mining HOWTO
+## Search for illegal amber mining on satellite images HOWTO
+#### How we created dataset and trained a model
 
 This is a description of methodology for this project: http://texty.org.ua/d/2018/amber_eng.
 Main idea - use machine learning to find all places of illegal amber mining in Nothern-West regions of Ukraine, on satellite images.
