@@ -47,6 +47,9 @@ We first thought about amber related project back in 2016, during work on [defor
 I'd like to say couple of kind words for [Terrapattern](http://www.terrapattern.com/), amazing project which proved that similar analysis of satellite images is possible.
 
 
+### Other remarks
+For the article, we used a novel way to make a transition between main visual elements --- fragments of satellite images --- and interactive map with the same images. You shoul [see it by yourself](http://texty.org.ua/d/2018/amber_eng) :)
+
 
 ### Contact autor of this repository:
 
