@@ -1,4 +1,4 @@
-## Search for illegal amber mining on satellite images HOWTO
+## Search for illegal amber mining on satellite images, HOWTO
 ### How we created dataset and trained a model
 
 
