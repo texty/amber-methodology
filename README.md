@@ -25,7 +25,7 @@ We decided to estimate, for the first time, the scale of environmental impact fr
 
 4. Split each such tile to superpixels/segments (part of image with approximately homogeneous visual appearance)
 
-5. Use neural net to extract features for each superpixel (we used pretrained, vanilla ResNet50 from Keras library)
+5. Use neural net to extract features for each superpixel (we used pretrained, vanilla ResNet50 from [Keras](https://keras.io/) library)
 
 6. Create labelled set of superpixels for binary classificator (split images on two sets - with traces of amber mining, and without such traces)
 
