@@ -29,7 +29,7 @@ We decided to estimate, for the first time, the scale of environmental impact fr
 
 6. Create labelled set of superpixels for binary classificator (split images on two sets - with traces of amber mining, and without such traces)
 
-7. Create machine model to classify superpixels (XGBoost was choosed, after several tries)
+7. Create machine model to classify superpixels ([XGBoost](http://dmlc.cs.washington.edu/xgboost.html) was choosed due to best performance, after several tries)
 
 8. Apply steps 4,5 and classifier from step 7 to each superpixel/segment for all images from region of interest. If more then 2 superpixels classified as positive, mark current image as area of mining (We processed approximately 450,000 images from region with total area about 70,000 km^2, total computation time was ~100 hours on one computer with two GeForce GTX 960 onboard)
 
