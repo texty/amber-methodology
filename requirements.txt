@@ -58,7 +58,7 @@ munch==2.3.0
 nbconvert==5.3.1
 nbformat==4.4.0
 networkx==2.1
-notebook==5.4.1
+notebook>5.7.2
 numba==0.37.0
 numpy==1.14.2
 packaging==17.1
