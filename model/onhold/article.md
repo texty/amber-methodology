@@ -18,8 +18,6 @@ We decided to estimate, for the first time, the scale of environmental impact fr
 
 2. Find which map providers have relatively recent satellite images with good resolution. Find examples of places with mining on such images (Mostly it's [Bing Maps](https://www.bing.com/maps?osid=6c00a44b-a9e3-4162-9c6d-6a962b7a717e&cp=50.528222~28.304432&lvl=15&style=h&v=2&sV=2&form=S00027) by Microsoft. It has excellent API, for example it provides needed metadata such as a date for each image. Due to small characteristic size of digged holes, we needed resolution no less then 1m per pixel). 
 
-2011   2012   2014   2015   2016 
-  1933   4669 117059 271893  55403 
   
 | Year | Number|
 | ------------- |:-------------:|
