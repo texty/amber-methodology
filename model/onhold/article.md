@@ -47,6 +47,9 @@ Positive examples: positive_types_combined.png
 8. Apply steps 4,5 and classifier from step 7 to each superpixel/segment for all images from region of interest. If more then 2 superpixels classified as positive, mark current image as area of mining (We processed approximately 450,000 images from region with total area about 70,000 km^2, total computation time was ~100 hours on one computer with two GeForce GTX 960 onboard)
 
 9. Create interactive map with places found by our method ( Most active period of mining was during 2014-2016 years. Most tiles from maps dated by 2015. We found more then 1,000 hectares of damaged land [??? - someday?]
+!(debug the tiles)[map_prefinal_debug.jpg]
+
+
 
 Result: we present most informative, as for this moment, interactive [map of impact on environment due to illegal amber mining in Ukraine](http://texty.org.ua/d/2018/amber_eng) (this article is in English)
 
