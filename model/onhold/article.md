@@ -18,6 +18,19 @@ We decided to estimate, for the first time, the scale of environmental impact fr
 
 2. Find which map providers have relatively recent satellite images with good resolution. Find examples of places with mining on such images (Mostly it's [Bing Maps](https://www.bing.com/maps?osid=6c00a44b-a9e3-4162-9c6d-6a962b7a717e&cp=50.528222~28.304432&lvl=15&style=h&v=2&sV=2&form=S00027) by Microsoft. It has excellent API, for example it provides needed metadata such as a date for each image. Due to small characteristic size of digged holes, we needed resolution no less then 1m per pixel). 
 
+2011   2012   2014   2015   2016 
+  1933   4669 117059 271893  55403 
+  
+| Year | Number|
+| ------------- |:-------------:|
+| 2011      | 1933|
+| 2012      | 4669      |
+| 2014 | 117059      |
+| 2015 | 271893      |
+| 2016 | 55403      |
+
+  
+
 3. Find and compile initial set of coordinates for images with traces of mining (we found first places with mining with a huge help from [participants of Open Data Day Kyiv](https://www.facebook.com/media/set/?set=ms.c.eJxFj8ENADEIwzY6FQIB9l~%3BsVCrar2USIm5OppQ7FC6fNAjFBmYxIJhJD71ARaVKhAMMbXDdE~_nQqgE4RlwDXWuY2lzWJ3yh2obmGLbawGvx81i~_jP3YAgZIbYNp1~_gtrNmS6AxyMiLPWokfOYA7Bg~-~-.bps.a.1545667108865793.1073741952.855566061209238&type=1) )
 
 4. Split each such tile to superpixels/segments (part of image with approximately homogeneous visual appearance)
