@@ -1,10 +1,6 @@
 
-## Search for illegal amber mining on satellite images, HOWTO
-### How we created dataset and trained a model
-
-
-
-This is a description of methodology for project [Leprosy of the Land](http://texty.org.ua/d/2018/amber_eng) made by Texty during March, 2018. Main idea was to use machine learning to find all places of illegal amber mining in Nothern-West regions of Ukraine, on satellite images.
+## [Leprosy of the Land](http://texty.org.ua/d/2018/amber_eng)
+How we used machine learning to search satellite images of Nothern-West regions of Ukraine (75,000 km^2, ~ the area of Czech republic)) for places with [illegal amber mining]().
 
 
 ### Motivation
