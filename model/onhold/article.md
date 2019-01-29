@@ -35,12 +35,20 @@ Tiles distribution, by year:
 4. Split each such tile to superpixels/segments (part of image with approximately homogeneous visual appearance)
   With simple linear iterative clustering (SLIC) algorithm (http://www.kev-smith.com/papers/SLIC_Superpixels.pdf)  
 
-5. Use neural net to extract features for each superpixel (we used pretrained, vanilla ResNet50 from [Keras](https://keras.io/) library) [Citation???]
+5. Use neural net to extract features for each superpixel (we used pretrained, vanilla ResNet50 from [Keras](https://keras.io/) library) 
+
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun 
+Deep Residual Learning for Image Recognition
+arXiv:1512.03385, 2015
+
+François Chollet and others, Keras Library, https://github.com/fchollet/keras, 2015
+
+
 
 6. Create labelled set of superpixels for binary classificator (split images on two sets - with traces of amber mining, and without such traces)
 Positive examples: positive_types_combined.png
 
-7. Create machine model to classify superpixels ([XGBoost](http://dmlc.cs.washington.edu/xgboost.html) was choosed due to best performance, after several attempts (SVM, RandomForest)). Estimate performance [[[???]]] Make (visual debugging)[???] of classifier.
+7. Create machine model to classify superpixels ([XGBoost](http://dmlc.cs.washington.edu/xgboost.html) was choosed due to best performance, after several attempts (SVM, RandomForest)). Estimate performance (production model: f1=0.91, recall=0.88, precision=0.95) Make (visual debugging) of classifier.
 
 8.1 Correct "second level" errors with a help of readers (comments from locals) and field expert's reviews. We wrongly marked some area of human caused deforestation as places with illegal amber mining (due to visual uncertainty) in our training test. 
 
