@@ -44,7 +44,7 @@ Result: we present most informative, as for this moment, interactive [map of imp
 * [Step 1: How to split map tile to "superpixels"](./model/step1.ipynb)
 * [Step 2. How to create features for image. Model training & testing](./model/step2.ipynb)
 * [Step 3: Detect places with amber mining](./model/step3.ipynb)
-* [Add. 1: Debug classifier, with interactive scatterplot](./model/visually_debug_model.ipynb)]
+* [Add. 1: Debug classifier, with interactive scatterplot](./model/visually_debug_model.ipynb)
 
 
 
