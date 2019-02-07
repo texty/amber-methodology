@@ -59,6 +59,13 @@ I'd like to say couple of kind words for [Terrapattern](http://www.terrapattern.
 For the article, we used a novel way to make a transition between main visual elements --- fragments of satellite images --- and interactive map with the same images. You should [see it by yourself](http://texty.org.ua/d/2018/amber_eng) :)
 
 
+
+### Publicity
+* Project was [nominated by Prix Europa](https://www.prixeuropa.eu/s/PE18_Nominations_Online-Projects.pdf) media competition (Online category) in September 2018
+* Paper about project's methodology was presented at [Computation+Journalism Symposium 2019, Miami](https://vimeo.com/album/5731415/video/315001251). [Text](./doc/c+j2019.md) of presentation, link to [article](https://github.com/texty/amber-methodology/blob/master/doc/rarcticle.pdf) (in pdf format) 
+
+
+
 ### Contact autor of this repository:
 
 [Anatoliy Bondarenko](https://twitter.com/dvrnd)
