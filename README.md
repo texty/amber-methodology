@@ -63,7 +63,7 @@ For the article, we used a novel way to make a transition between main visual el
 ### Publicity
 * Project was [nominated by Prix Europa](https://www.prixeuropa.eu/s/PE18_Nominations_Online-Projects.pdf) media competition (Online category) in September 2018
 * Paper about project's methodology was presented at [Computation+Journalism Symposium 2019, Miami](https://vimeo.com/album/5731415/video/315001251). Text of [presentation](./doc/c+j2019.md), link to [article](https://github.com/texty/amber-methodology/blob/master/doc/rarcticle.pdf) (in pdf format) 
-* [Bronze medal]((https://www.snd.org/bodd/2019/02/12/2018-results/)) on SND's Best of Digital Design competition, 2018
+* [Bronze medal](https://www.snd.org/bodd/2019/02/12/2018-results/) on SND's Best of Digital Design competition, 2018
 
 
 
