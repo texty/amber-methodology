@@ -36,7 +36,7 @@ ipykernel==4.8.2
 ipython==5.5.0
 ipython-genutils==0.2.0
 ipywidgets==7.1.2
-Jinja2==2.10
+Jinja2>=2.10.1
 jsonschema==2.6.0
 jupyter==1.0.0
 jupyter-client==5.2.3
@@ -98,8 +98,8 @@ sklearn==0.0
 statsmodels==0.8.0
 subprocess32==3.2.7
 tensorboard==1.6.0
-tensorflow==1.6.0
-tensorflow-gpu==1.4.0
+tensorflow>=1.15.2
+tensorflow-gpu>=1.15.2
 tensorflow-tensorboard==0.4.0
 termcolor==1.1.0
 terminado==0.8.1
@@ -109,6 +109,6 @@ tornado==5.0.1
 traitlets==4.3.2
 umap-learn==0.2.1
 wcwidth==0.1.7
-Werkzeug==0.14.1
+Werkzeug>=0.15.3
 widgetsnbextension==3.1.4
 xgboost==0.7.post3
