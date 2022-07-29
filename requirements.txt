@@ -50,7 +50,7 @@ Markdown==2.6.11
 MarkupSafe==1.0
 matplotlib==2.2.2
 maxrect==0.0.1.dev0
-mistune==0.8.3
+mistune==2.0.3
 mock==2.0.0
 mpld3==0.3
 multiprocess==0.70.5
