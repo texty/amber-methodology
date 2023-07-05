@@ -29,7 +29,7 @@ futures==3.2.0
 gast==0.2.0
 geopandas==0.3.0
 ggplot==0.11.5
-grpcio==1.10.0
+grpcio==1.53.0
 h5py==2.7.1
 html5lib==0.9999999
 ipykernel==4.8.2
